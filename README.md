@@ -10,11 +10,11 @@ I guess productivity is more about comfort than anything else, after all.
 ## the path to comfort
 - Get this project. Using [Git](http://www.git-scm.com/):
 ```sh
-$  git clone https://github.com/diessica/dotfiles.git ~/.dotfiles
+$  git clone https://github.com/diessica/dotfiles.git ~/dotfiles
 ```
 - Run the installation file.
 ```sh
-$  cd ~/.dotfiles
+$  cd ~/dotfiles
 $  sh install
 ```
 - Tell Git who you are in a `.gitlocal` file. 
