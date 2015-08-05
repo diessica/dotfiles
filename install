@@ -41,11 +41,11 @@ curl https://raw.github.com/rupa/z/master/z.sh > ~/dotfiles/utils/z.sh
 # --------------–-------–--------–--------–-------–--–-----
 # Node.js
 echo "→ Installing npm packages.."
-npm install -g $(cat npm/npmGlobals)
+npm install -g $(cat npm/npmGlobals|grep -v "#")
 
 # Ruby
 echo "→ Installing gems.."
-gem install $(cat ruby/gemfile)
+gem install $(cat ruby/gemfile|grep -v "#")
 
 # Python (not versioned!)
 # pip install $(cat python/pipfile)
