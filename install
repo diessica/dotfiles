@@ -65,13 +65,11 @@ ln -s ~/dotfiles/git/config ~/.gitconfig
 ln -s ~/dotfiles/git/attributes ~/.gitattributes
 ln -s ~/dotfiles/git/ignore_global ~/.gitignore_global
 
-echo "→ Linking Zsh dotfiles..."
+#echo "→ Linking Zsh dotfiles..."
 # Remove that messy default zshrc file
-rm ~/.zshrc
+#rm ~/.zshrc
 # And set the awesome ones!
-ln -s ~/dotfiles/zshrc ~/.zshrc
-
-echo "→ Linking dotfiles..."
+# TODO
 
 
 # --------------–-------–--------–--------–-------–--–-----

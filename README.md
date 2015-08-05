@@ -35,6 +35,7 @@ An entire environment, with software preferences (hot corners, Finder, Safari...
 
 # to-do
 - [ ] Open source my zsh preferences and organize them by folder.
+- [ ] Open source my Sublime preferences.
 - [ ] Organise [`misc`](misc) folder somehow. Still kinda messy.
 - [ ] Implement modular installation, specially for linking dotfiles.
 - [ ] Config symlinks.
