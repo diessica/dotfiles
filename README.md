@@ -24,10 +24,10 @@ $  git config -f ~/.gitlocal user.name "{Your name}"
 ```
 - Tell [npm](https://www.npmjs.com/) who you are:
 ```sh
-npm set init.author.name "{Your name}"
-npm set init.author.email "{Your email}"
-npm set init.author.url "{Your URL}"
-npm adduser
+$  npm set init.author.name "{Your name}"
+$  npm set init.author.email "{Your email}"
+$  npm set init.author.url "{Your URL}"
+$  npm adduser
 ```
 
 ## what's included?
