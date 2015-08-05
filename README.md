@@ -28,11 +28,11 @@ git config -f ~/.gitlocal user.name "{name}"
 An entire environment, with software preferences (hot corners, Finder, Safari...), hardware settings (trackpad, screen...), npm global packages, gems, terminal tweaks... **Everything well-documented and specified** in [`settings.md`](https://github.com/diessica/dotfiles/blob/master/settings.md) file.
 
 # to-do
-- [ ] Config symlinks.
-- [ ] Organise aliases by folder.
-- [ ] Set up an awesome git-changelog.
+- [ ] Open source my zsh preferences and organize them by folder.
+- [ ] Organise `misc` folder somehow. Still kinda messy.
 - [ ] Implement modular installation, specially for linking dotfiles.
-
+- [ ] Config symlinks.
+- [ ] Set up an awesome git-changelog.
 ---
 
 # thanks
