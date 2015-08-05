@@ -12,15 +12,15 @@ I guess productivity is more about comfort than anything else, after all.
 ```sh
 $  git clone https://github.com/diessica/dotfiles.git ~/dotfiles
 ```
-- Run the installation file.
+- Run the [installation file](install).
 ```sh
 $  cd ~/dotfiles
 $  sh install
 ```
 - Tell Git who you are in a `.gitlocal` file. 
 ```sh
-git config -f ~/.gitlocal user.email "{email}"
-git config -f ~/.gitlocal user.name "{name}"
+$  git config -f ~/.gitlocal user.email "{email}"
+$  git config -f ~/.gitlocal user.name "{name}"
 ```
 
 
@@ -29,10 +29,11 @@ An entire environment, with software preferences (hot corners, Finder, Safari...
 
 # to-do
 - [ ] Open source my zsh preferences and organize them by folder.
-- [ ] Organise `misc` folder somehow. Still kinda messy.
+- [ ] Organise [`misc`](misc) folder somehow. Still kinda messy.
 - [ ] Implement modular installation, specially for linking dotfiles.
 - [ ] Config symlinks.
 - [ ] Set up an awesome git-changelog.
+
 ---
 
 # thanks
