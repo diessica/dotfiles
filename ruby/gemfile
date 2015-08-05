@@ -1,12 +1,6 @@
-# Require at least one gem source in the form of the URL for a RubyGems server
-source 'https://rubygems.org'
-
 # Gems, which can include version numbers if needed
-gem 'bundler'
-gem 'gem-path'
-
-group :development do
-  gem 'rails'
-  gem 'rake'
-  gem 'guard-livereload'
-end
+bundler
+gem-path
+rails
+rake
+guard-livereload
