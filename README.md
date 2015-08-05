@@ -19,10 +19,16 @@ $  sh install
 ```
 - Tell Git who you are in a `.gitlocal` file. 
 ```sh
-$  git config -f ~/.gitlocal user.email "{email}"
-$  git config -f ~/.gitlocal user.name "{name}"
+$  git config -f ~/.gitlocal user.email "{Your email}"
+$  git config -f ~/.gitlocal user.name "{Your name}"
 ```
-
+- Tell [npm](https://www.npmjs.com/) who you are:
+```sh
+npm set init.author.name "{Your name}"
+npm set init.author.email "{Your email}"
+npm set init.author.url "{Your URL}"
+npm adduser
+```
 
 ## what's included?
 An entire environment, with software preferences (hot corners, Finder, Safari...), hardware settings (trackpad, screen...), npm global packages, gems, terminal tweaks... **Everything well-documented and specified** in [`settings.md`](https://github.com/diessica/dotfiles/blob/master/settings.md) file.
