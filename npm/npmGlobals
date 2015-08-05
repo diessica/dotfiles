@@ -8,6 +8,7 @@ gh
 grunt-cli
 gulp
 mozjpeg
+perfschool
 yo
 
 # System tools
@@ -20,3 +21,6 @@ wifi-password
 
 # Command-line tweaks
 pure-prompt
+
+# Miscellaneous
+pick-random
