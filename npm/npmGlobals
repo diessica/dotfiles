@@ -1,0 +1,22 @@
+# Services
+wunderline
+
+# Development tools
+cssstats
+eslint
+gh
+grunt-cli
+gulp
+mozjpeg
+yo
+
+# System tools
+battery-level
+brightness-cli
+empty-trash
+trash
+vol
+wifi-password
+
+# Command-line tweaks
+pure-prompt

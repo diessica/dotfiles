@@ -1,0 +1,64 @@
+[hub]
+  protocol = https
+  
+[alias]
+  # --------------–-------–--------–--------–-------–--–-----
+  # Faster commands
+  # --------------–-------–--------–--------–-------–--–-----
+  ad = add .
+  br = branch
+  cm = commit -m
+  cam = commit -a -m
+  pl = pull
+  ps = push
+  psm = push origin master
+  st = status
+
+  # --------------–-------–--------–--------–-------–--–-----
+  # More intuitive commands
+  # --------------–-------–--------–--------–-------–--–-----
+  # List tags
+  tags = tag -l
+  # List branches
+  branches = branch -a
+  # Reset (uncomitted) changes
+  abort = reset --hard HEAD
+  # Remove last commit
+  uncommit = reset HEAD~1
+  # Rewrite last commit message
+  recommit = commit --amend -m
+  # Show a full log
+  graph = log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+  # Name/email of the author
+  whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
+  # Commit name
+  whatis = show -s --pretty='tformat:%h (%s, %ad)' --date=short
+
+[core]
+  excludesfile = ~/.gitignore_global
+
+[apply]
+  whitespace = fix
+  
+[color]
+  ui = auto
+  interactive = auto
+  
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+  
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+  
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+  
+[merge]
+  log = true

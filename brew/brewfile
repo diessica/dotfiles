@@ -1,0 +1,22 @@
+node
+go
+
+# Command-line tweaks and utils
+coreutils
+ffmpeg
+findutils
+imagemagick --with-webp
+speedtest_cli
+terminal-notifier
+tree
+wget --with-iri
+youtube-dl
+zsh
+zsh-completion
+
+# Development tools
+android-sdk
+vim
+git
+hub
+virtualbox
