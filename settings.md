@@ -90,6 +90,7 @@ I play with [RUBYRUBYRUBYRUBY!](https://www.youtube.com/watch?v=qObzgUfCl28) som
 - Set to metric units
 
 ###### Dock and Dashboard
+- Put Dock on the left side of the screen
 - Enable highlight hover effect for the grid view of a stack (Dock)
 - Set the icon size of Dock items to 36 pixels
 - Change minimize/maximize window effect
