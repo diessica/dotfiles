@@ -2,6 +2,7 @@
 wunderline
 
 # Development tools
+browser-sync
 cssstats
 eslint
 gh
