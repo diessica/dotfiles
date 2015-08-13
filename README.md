@@ -17,7 +17,7 @@ $  git clone https://github.com/diessica/dotfiles.git ~/dotfiles
 $  cd ~/dotfiles
 $  sh install
 ```
-- Tell Git who you are in a `.gitlocal` file. 
+- Tell Git who you are in a `.gitlocal` file.
 ```sh
 $  git config -f ~/.gitlocal user.email "{Your email}"
 $  git config -f ~/.gitlocal user.name "{Your name}"
@@ -35,9 +35,9 @@ An entire environment, with software preferences (hot corners, Finder, Safari...
 
 # to-do
 - [ ] Open source my zsh preferences and organize them by folder.
-- [ ] Open source my Sublime preferences.
-- [ ] Organise [`misc`](misc) folder somehow. Still kinda messy.
-- [ ] Implement modular installation, specially for linking dotfiles.
+- [ ] Open source my keybindings on Atom.
+- [ ] Organise [`misc`](misc) folder somehow. Still kinda nonsense.
+- [ ] Implement modular installation, specially for dotfiles.
 - [ ] Config symlinks.
 - [ ] Set up an awesome git-changelog.
 
