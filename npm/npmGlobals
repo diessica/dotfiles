@@ -20,6 +20,7 @@ empty-trash
 trash
 vol
 wifi-password
+speed-test
 
 # Command-line tweaks
 pure-prompt
