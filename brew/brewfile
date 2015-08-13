@@ -3,6 +3,7 @@ go
 
 # Command-line tweaks and utils
 coreutils
+curl --with-ssl --with-libssh2
 ffmpeg
 findutils
 imagemagick --with-webp
@@ -18,5 +19,6 @@ zsh-completion
 android-sdk
 vim
 git
+git-ftp
 hub
 virtualbox
