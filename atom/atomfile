@@ -1,12 +1,66 @@
+# Editor UI
+# --------------–-------–--------–--------–-------–--–-----
+gruvbox
+nucleus-dark-ui
+polaris-syntax
+quantum-ui
+spacegray-eighties-ui
+
+# Syntax highlight and snippets
+# --------------–-------–--------–--------–-------–--–-----
+angularjs
+javascript-object-snippets
+javascript-snippets
+less-than-slash
+react
+stylus
+turbo-javascript
+
+# Tools
+# --------------–-------–--------–--------–-------–--–-----
 atom-beautify
-atom-ternjs
-autocomplete-plus
-file-icons
-filesize
+autoprefixer
+color-picker
+docblockr
+emmet
+html-entities
+jshint
 linter
 merge-conflicts
-open-recent
 pigments
-quick-editor
+tabs-to-spaces
 todo-show
 travis-ci-status
+uglify
+
+# Interaction with other apps
+# --------------–-------–--------–--------–-------–--–-----
+ask-stack
+git-plus
+git-projects
+
+# General experience improvements
+# --------------–-------–--------–--------–-------–--–-----
+# (or "Things that should be native on Atom")
+audio
+auto-detect-indentation
+autocomplete-plus
+expose
+file-icons
+filesize
+jumpy
+local-history
+minimap
+minimap-autohide
+minimap-bookmarks
+open-recent
+pain-split
+project-manager
+quick-editor
+rename-tabs
+save-session
+set-syntax
+sort-lines
+tab-rename
+the-closer
+trailing-spaces

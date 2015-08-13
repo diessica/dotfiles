@@ -29,7 +29,7 @@ echo "→ Installing packages using Homebrew..."
 # Install all packages listed in the brewfile
 brew install $(cat brewfile|grep -v "#")
 
-# Install oh-my-zsh, a framework for Zsh 
+# Install oh-my-zsh, a framework for Zsh
 echo "→ Installing oh-my-zsh, a framework for Zsh.."
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
@@ -52,7 +52,7 @@ gem install $(cat ruby/gemfile|grep -v "#")
 
 # Atom
 echo "→ Installing Atom packages..."
-apm install --packages-file atom/atomfile
+apm install --packages-file $(cat atom/atomfile|grep -v "#")
 
 
 # --------------–-------–--------–--------–-------–--–-----
