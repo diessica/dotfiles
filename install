@@ -40,20 +40,19 @@ curl https://raw.github.com/rupa/z/master/z.sh > ~/dotfiles/utils/z.sh
 # General packages
 # --------------–-------–--------–--------–-------–--–-----
 # Node.js
-echo "→ Installing npm packages.."
+echo "→ Installing npm packages..."
 npm install -g $(cat npm/npmGlobals|grep -v "#")
 
 # Ruby
-echo "→ Installing gems.."
+echo "→ Installing gems..."
 gem install $(cat ruby/gemfile|grep -v "#")
 
 # Python (not versioned!)
 # pip install $(cat python/pipfile)
 
 # Atom
-# TODO
-#echo "→ Installing Atomp packages.."
-#apm install --packages-file atom/atomfile
+echo "→ Installing Atom packages..."
+apm install --packages-file atom/atomfile
 
 
 # --------------–-------–--------–--------–-------–--–-----
