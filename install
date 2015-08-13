@@ -33,7 +33,7 @@ brew install $(cat brewfile|grep -v "#")
 echo "→ Installing oh-my-zsh, a framework for Zsh.."
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# Install z, which  tracks the most used directories
+# Install z, which tracks the most used directories
 curl https://raw.github.com/rupa/z/master/z.sh > ~/dotfiles/utils/z.sh
 
 # --------------–-------–--------–--------–-------–--–-----
