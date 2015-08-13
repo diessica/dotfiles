@@ -4,9 +4,9 @@
 
 ##### Installed packages
 - [Homebrew](#homebrew)
-- [npm globals](#npm-globals)
+- [npm globals](#npm)
 - [Gems](#gems)
-- [Atom packages](#atom-packages)
+- [Atom packages](#atom)
 
 ##### Miscellaneous features
 - EditorConfig
@@ -52,7 +52,7 @@ Volume and brightness control on OS X, TODOs management... Everything through co
 I play with [RUBYRUBYRUBYRUBY!](https://www.youtube.com/watch?v=qObzgUfCl28) sometimes. 
 
 #### Atom
-> :exclamation: No packages for now. I didn't mean to deceive you :-(
+> See [`atomfile`](atom/atomfile).
 
 
 ## Defaults
