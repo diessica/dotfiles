@@ -41,6 +41,7 @@ An entire environment, with software preferences (hot corners, Finder, Safari...
 - [ ] Implement modular installation, specially for dotfiles.
 - [ ] Config symlinks.
 - [ ] Set up an awesome git-changelog.
+- [ ] Config [`jshintrc`](misc/jshintrc).
 
 ---
 
