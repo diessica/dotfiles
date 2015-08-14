@@ -41,15 +41,15 @@ Because I do love command line stuff.
 
 Command-line tweaks and utils, development tools...
 
-#### npm 
+#### npm
 > See [`npmGlobals`](npm/npmGlobals).
 
 Volume and brightness control on OS X, TODOs management... Everything through command line.
 
-#### Gems 
+#### Gems
 > See [`gemfile`](ruby/gemfile).
 
-I play with [RUBYRUBYRUBYRUBY!](https://www.youtube.com/watch?v=qObzgUfCl28) sometimes. 
+I play with [RUBYRUBYRUBYRUBY!](https://www.youtube.com/watch?v=qObzgUfCl28) sometimes.
 
 #### Atom
 > See [`atomfile`](atom/atomfile).
@@ -63,7 +63,7 @@ I play with [RUBYRUBYRUBYRUBY!](https://www.youtube.com/watch?v=qObzgUfCl28) som
 - Hide some icons from menu bar: Time Machine and Volume
 - Disable the *"Are you sure you want to open this application?"* dialog
 - Check for software updates daily, not just once per week
-- Set sidebar icon size to medium
+- Set sidebar icon size to small
 - Save to disk (not to iCloud) by default
 - Disable the crash reporter
 - Restart automatically if the computer freezes
