@@ -34,7 +34,8 @@ $  npm adduser
 An entire environment, with software preferences (hot corners, Finder, Safari...), hardware settings (trackpad, screen...), npm global packages, gems, terminal tweaks... **Everything well-documented and specified** in [`settings.md`](https://github.com/diessica/dotfiles/blob/master/settings.md) file.
 
 # to-do
-- [ ] Open source my zsh preferences and organize them by folder.
+- [x] Open source my zsh preferences and organize them by folder.
+- [ ] Open source my keybindings on zsh.
 - [ ] Open source my keybindings on Atom.
 - [ ] Organise [`misc`](misc) folder somehow. Still kinda nonsense.
 - [ ] Implement modular installation, specially for dotfiles.
@@ -45,7 +46,7 @@ An entire environment, with software preferences (hot corners, Finder, Safari...
 
 # thanks
 
-We can learn about productivity just looking at the way people work everyday. I was highly inspired by [Holman](https://github.com/holman), [Mathias Bynens](https://github.com/mathiasbynens/dotfiles), [Deny Dias](https://github.com/denydias/dotfiles) and a lot of other people's workflow.
+We can learn about productivity just looking at the way people work everyday. I was highly inspired by [Holman](https://github.com/holman), [Mathias Bynens](https://github.com/mathiasbynens/dotfiles), [Deny Dias](https://github.com/denydias/dotfiles), [this question](http://stackoverflow.com/questions/171563/whats-in-your-zshrc), and a lot of other people's workflow.
 
 I can't agree more with [Holman](https://github.com/holman)'s thoughts on dotfiles: [dotfiles are meant to be forked](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked).
 

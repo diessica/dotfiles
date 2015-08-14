@@ -33,11 +33,34 @@ brew install $(cat brewfile|grep -v "#")
 echo "→ Installing oh-my-zsh, a framework for Zsh.."
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# Install z, which tracks the most used directories
-curl https://raw.github.com/rupa/z/master/z.sh > ~/dotfiles/utils/z.sh
+# Install zsh-syntax-highlighting plugin
+git clone git://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins
+
 
 # --------------–-------–--------–--------–-------–--–-----
-# General packages
+# Command line tweaks, linking stuff
+# --------------–-------–--------–--------–-------–--–-----
+echo "→ Linking Git dotfiles..."
+# Personal information in your .gitlocal, not .gitconfig!
+ln -s ~/dotfiles/git/config ~/.gitconfig
+ln -s ~/dotfiles/git/attributes ~/.gitattributes
+ln -s ~/dotfiles/git/ignore_global ~/.gitignore_global
+
+echo "→ Linking Zsh dotfiles..."
+# Set Zsh as default shell
+chsh -s $(which zsh)
+# Remove that messy default zshrc file
+rm ~/.zshrc
+# And set the awesome ones!
+ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
+ln -s ~/dotfiles/zsh/custom ~/.oh-my-zsh/custom
+
+echo "→ Configure iTerm..."
+ln -s ~/dotfiles/iterm/plist ~/Library/Preferences/com.googlecode.iterm2.plist
+
+
+# --------------–-------–--------–--------–-------–--–-----
+# Specific packages
 # --------------–-------–--------–--------–-------–--–-----
 # Node.js
 echo "→ Installing npm packages..."
@@ -47,28 +70,12 @@ npm install -g $(cat npm/npmGlobals|grep -v "#")
 echo "→ Installing gems..."
 gem install $(cat ruby/gemfile|grep -v "#")
 
-# Python (not versioned!)
+# Python (TODO - not versioned yet!)
 # pip install $(cat python/pipfile)
 
 # Atom
 echo "→ Installing Atom packages..."
 apm install --packages-file $(cat atom/atomfile|grep -v "#")
-
-
-# --------------–-------–--------–--------–-------–--–-----
-# Link dotfiles
-# --------------–-------–--------–--------–-------–--–-----
-echo "→ Linking Git dotfiles..."
-# Personal information in your .gitlocal, not .gitconfig!
-ln -s ~/dotfiles/git/config ~/.gitconfig
-ln -s ~/dotfiles/git/attributes ~/.gitattributes
-ln -s ~/dotfiles/git/ignore_global ~/.gitignore_global
-
-#echo "→ Linking Zsh dotfiles..."
-# Remove that messy default zshrc file
-#rm ~/.zshrc
-# And set the awesome ones!
-# TODO
 
 
 # --------------–-------–--------–--------–-------–--–-----
