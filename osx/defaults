@@ -32,8 +32,9 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 # Check for software updates daily, not just once per week
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
-# Set sidebar icon size to medium
-defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
+# Set sidebar icon size to small
+## Medium = 2, large = 3
+defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
 # Save to disk (not to iCloud) by default
 defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
