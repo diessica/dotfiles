@@ -36,6 +36,7 @@
 
 [core]
   excludesfile = ~/.gitignore_global
+  editor = atom
 
 [apply]
   whitespace = fix
