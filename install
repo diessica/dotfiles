@@ -38,6 +38,25 @@ git clone git://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/cu
 
 
 # --------------–-------–--------–--------–-------–--–-----
+# Specific packages
+# --------------–-------–--------–--------–-------–--–-----
+# Node.js
+echo "→ Installing npm packages..."
+npm install -g $(cat npm/npmGlobals|grep -v "#")
+
+# Ruby
+echo "→ Installing gems..."
+gem install $(cat ruby/gemfile|grep -v "#")
+
+# Python (TODO - not versioned yet!)
+# pip install $(cat python/pipfile)
+
+# Atom
+echo "→ Installing Atom packages..."
+apm install --packages-file $(cat atom/atomfile|grep -v "#")
+
+
+# --------------–-------–--------–--------–-------–--–-----
 # Command line tweaks, linking stuff
 # --------------–-------–--------–--------–-------–--–-----
 echo "→ Linking Git dotfiles..."
@@ -58,24 +77,8 @@ ln -s ~/dotfiles/zsh/custom ~/.oh-my-zsh/custom
 echo "→ Configure iTerm..."
 ln -s ~/dotfiles/iterm/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 
-
-# --------------–-------–--------–--------–-------–--–-----
-# Specific packages
-# --------------–-------–--------–--------–-------–--–-----
-# Node.js
-echo "→ Installing npm packages..."
-npm install -g $(cat npm/npmGlobals|grep -v "#")
-
-# Ruby
-echo "→ Installing gems..."
-gem install $(cat ruby/gemfile|grep -v "#")
-
-# Python (TODO - not versioned yet!)
-# pip install $(cat python/pipfile)
-
-# Atom
-echo "→ Installing Atom packages..."
-apm install --packages-file $(cat atom/atomfile|grep -v "#")
+echo "→ Configure Atom..."
+ln -s ~/dotfiles/atom/config.cson ~/.atom/config.cson
 
 
 # --------------–-------–--------–--------–-------–--–-----
