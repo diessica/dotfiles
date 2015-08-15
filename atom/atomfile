@@ -27,6 +27,7 @@ html-entities
 jshint
 linter
 linter-eslint
+linter-flow
 linter-stylint
 #linter-rubocop
 merge-conflicts

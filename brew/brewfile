@@ -1,5 +1,5 @@
-node
 go
+node
 
 # Command-line tweaks and utils
 coreutils
@@ -17,8 +17,9 @@ zsh-completion
 
 # Development tools
 android-sdk
-vim
+flow
 git
 git-ftp
 hub
+vim
 virtualbox
