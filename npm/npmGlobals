@@ -1,3 +1,18 @@
+# Be aware about npm globals. Keep your devDependencies versioned in your
+# project's package.json file, unless you really know what you are doing.
+# (Read more: joezimjs.com/javascript/no-more-global-npm-packages)
+#
+# There are a lot of CLI tools, like Grunt and Gulp, that "require to be
+# installed with the -g flag". That's not true. They don't, actually.
+# So, I do not install Gulp and Grunt as global packages anymore.
+# (Read more: bit.ly/1JjhjW5)
+#
+# Also, (most) packages here are not devDependencies. Not all npm modules are.
+# Just cool stuff.
+#
+#
+# tldr; DO NOT install any of your project's devDependencies as global.
+
 # Services
 wunderline
 
@@ -6,8 +21,6 @@ browser-sync
 cssstats
 eslint
 gh
-grunt-cli
-gulp
 jpm
 mozjpeg
 yo
