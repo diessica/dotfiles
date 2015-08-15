@@ -9,12 +9,13 @@
 - [Atom packages](#atom)
 
 ##### Miscellaneous features
-- EditorConfig
+- [EditorConfig](misc/.editorconfig)
 - [Git](git)
   - Config
   - Attributes
   - Global .gitignore
-- JSHint file
+- [JSHint](misc/.jslintrc)
+- [ESLint](misc/.eslintrc)
 
 ##### Defaults
 - Operational system
@@ -44,7 +45,7 @@ Command-line tweaks and utils, development tools...
 #### npm
 > See [`npmGlobals`](npm/npmGlobals).
 
-Volume and brightness control on OS X, TODOs management... Everything through command line.
+Volume and brightness control on OS X, TODOs management, development tools and helpers... Everything through command line.
 
 #### Gems
 > See [`gemfile`](ruby/gemfile).
@@ -90,8 +91,9 @@ I play with [RUBYRUBYRUBYRUBY!](https://www.youtube.com/watch?v=qObzgUfCl28) som
 - Set to metric units
 
 ###### Dock and Dashboard
-- Put Dock on the left side of the screen
+- Put Dock on the right side of the screen
 - Enable highlight hover effect for the grid view of a stack (Dock)
+- Add a spacer tile in the Dock
 - Set the icon size of Dock items to 36 pixels
 - Change minimize/maximize window effect
 - Minimize windows into their application's icon

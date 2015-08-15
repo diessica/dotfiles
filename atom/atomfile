@@ -26,6 +26,9 @@ emmet
 html-entities
 jshint
 linter
+linter-eslint
+linter-stylint
+#linter-rubocop
 merge-conflicts
 pigments
 tabs-to-spaces
