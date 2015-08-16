@@ -39,6 +39,7 @@ uglify
 
 # Interaction with other apps
 # --------------–-------–--------–--------–-------–--–-----
+api-docs
 ask-stack
 git-plus
 git-projects
