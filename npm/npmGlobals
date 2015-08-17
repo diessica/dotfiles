@@ -1,4 +1,4 @@
-# tldr; DO NOT install any of yougr project's devDependencies as global.
+# tldr; DO NOT install any of your project's devDependencies as global.
 #
 #
 # Be aware about npm globals. Keep your devDependencies versioned in your
