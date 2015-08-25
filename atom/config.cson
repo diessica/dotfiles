@@ -17,6 +17,8 @@
     showIndentGuide: true
     fontFamily: "fira code"
     lineHeight: 1.45
+    autoIndent: false
+    fontSize: 12
   linter:
     showErrorPanel: false
   minimap:
@@ -25,3 +27,6 @@
       bookmarks: true
   "tree-view":
     hideIgnoredNames: true
+  tabs:
+    usePreviewTabs: true
+
