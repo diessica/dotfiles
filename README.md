@@ -3,7 +3,7 @@
 
 These are my very personal **system preferences**; **command-line tools**, **tweaks** and **utils**.
 
-Productivity is quite a subjective topic, so perhaps my flow won't work for you in the same way it works for me. Actually, I'm not even sure whether it is the most productive way to work, but, as a huge fan of productivity stuff, I try hard to be more comfortable on my computer everyday.
+Productivity is quite a subjective topic, so perhaps my flow won't work for you in the same way it works for me. Actually, I'm not even sure whether it is the most productive way to work, but, as a huge fan of productivity stuff, I try hard to be more comfortable on my computer every day.
 
 I guess productivity is more about comfort than anything else, after all.
 
