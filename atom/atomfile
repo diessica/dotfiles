@@ -14,7 +14,6 @@ javascript-snippets
 less-than-slash
 react
 stylus
-turbo-javascript
 
 # Tools
 # --------------–-------–--------–--------–-------–--–-----
@@ -67,5 +66,4 @@ save-session
 set-syntax
 sort-lines
 tab-rename
-the-closer
 trailing-spaces
