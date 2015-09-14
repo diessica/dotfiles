@@ -27,7 +27,7 @@ brew upgrade
 echo "→ Installing packages using Homebrew..."
 
 # Install all packages listed in the brewfile
-brew install $(cat brewfile|grep -v "#")
+brew install $(cat brew/brewfile|grep -v "#")
 
 # Install oh-my-zsh, a framework for Zsh
 echo "→ Installing oh-my-zsh, a framework for Zsh.."
