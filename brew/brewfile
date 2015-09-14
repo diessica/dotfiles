@@ -13,7 +13,7 @@ tree
 wget --with-iri
 youtube-dl
 zsh
-zsh-completion
+zsh-completions
 
 # Development tools
 android-sdk
