@@ -23,10 +23,10 @@ color-picker
 docblockr
 emmet
 html-entities
-jshint
+#jshint
 linter
 linter-eslint
-linter-flow
+#linter-flow
 linter-stylint
 #linter-rubocop
 merge-conflicts
@@ -48,17 +48,13 @@ git-projects
 # (or "Things that should be native on Atom")
 audio
 auto-detect-indentation
-autocomplete-plus
-expose
 file-icons
 filesize
-jumpy
 local-history
 minimap
 minimap-autohide
 minimap-bookmarks
 open-recent
-pain-split
 project-manager
 quick-editor
 rename-tabs
