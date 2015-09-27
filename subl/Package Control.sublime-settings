@@ -1,4 +1,36 @@
 {
-	"installed_packages": [
-	]
+  "installed_packages": [
+    "AdvancedNewFile",
+    "AlignTab",
+    "All Autocomplete",
+    "AngularJS Snippets",
+    "AutoFileName",
+    "Babel",
+    "Color Highlighter",
+    "ColorPicker",
+    "DevDocs",
+    "DocBlockr",
+    "EJS",
+    "Emmet",
+    "Git",
+    "JavaScript Patterns",
+    "JavaScript Snippets",
+    "Markdown Extended",
+    "Markdown Preview",
+    "MarkdownEditing",
+    "Modific",
+    "Origami",
+    "Package Control",
+    "ReactJS",
+    "Sass",
+    "SideBarEnhancements",
+    "Stylus",
+    "SublimeCodeIntel",
+    "SublimeLinter",
+    "SublimeLinter-contrib-eslint",
+    "SublimeLinter-contrib-standard",
+    "Terminal",
+    "Theme - Spacegray",
+    "ToggleMinimapOnScroll"
+  ]
 }

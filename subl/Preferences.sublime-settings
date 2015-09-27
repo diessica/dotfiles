@@ -1,0 +1,40 @@
+{
+  // Theme
+  "theme": "Spacegray.sublime-theme",
+  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+  "spacegray_tabs_large": true,
+  "spacegray_sidebar_font_normal": true,
+
+  // Text
+  "font_size": 14,
+  "font_face": "Fira Code",
+  "line_padding_bottom": 1.5,
+  "line_padding_top": 1.5,
+
+  // Coding standards
+  "tab_size": 2,
+  "tabs_small": true,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "draw_white_space": "all",
+  "default_line_ending": "unix",
+  "ensure_newline_at_eof_on_save": true,
+
+  // Other
+  "bold_folder_labels": true,
+  "fade_fold_buttons": false,
+  "rulers": [80],
+  "highlight_line": false,
+  "highlight_modified_tabs": true,
+  "enable_live_count": true,
+  "close_windows_when_empty": false,
+
+  // Exclude
+  "file_exclude_patterns": [
+    ".DS_Store"
+  ],
+  "folder_exclude_patterns": [
+    ".git",
+    "node_modules"
+  ]
+}
