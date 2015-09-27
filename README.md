@@ -36,12 +36,10 @@ An entire environment, with software preferences (hot corners, Finder, Safari...
 # to-do
 - [x] Open source my zsh preferences and organize them by folder.
 - [ ] Open source my keybindings on zsh.
-- [ ] Open source my keybindings on Atom.
 - [ ] Organise [`misc`](misc) folder somehow. Still kinda nonsense.
 - [ ] Implement modular installation, specially for dotfiles.
 - [ ] Config symlinks.
 - [ ] Set up an awesome git-changelog.
-- [ ] Config [`jshintrc`](misc/jshintrc).
 
 ---
 
