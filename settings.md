@@ -7,6 +7,7 @@
 - [npm globals](#npm)
 - [Gems](#gems)
 - [Atom packages](#atom)
+- [Sublime packages](#sublime-text)
 
 ##### Miscellaneous features
 - [EditorConfig](misc/.editorconfig)
@@ -35,7 +36,6 @@
 
 
 ## Installed packages
-Because I do love command line stuff.
 
 #### Homebrew
 > See [`brewfile`](brew/brewfile).
@@ -55,6 +55,9 @@ I play with [RUBYRUBYRUBYRUBY!](https://www.youtube.com/watch?v=qObzgUfCl28) som
 #### Atom
 > See [`atomfile`](atom/atomfile).
 
+
+#### Sublime Text
+> See [`subl` folder](subl).
 
 ## Defaults
 ### Operational system
