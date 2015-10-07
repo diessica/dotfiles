@@ -38,7 +38,7 @@ An entire environment, with software preferences (hot corners, Finder, Safari...
 - [ ] Open source my keybindings on zsh.
 - [ ] Organise [`misc`](misc) folder somehow. Still kinda nonsense.
 - [ ] Implement modular installation, specially for dotfiles.
-- [ ] Config symlinks.
+- [x] Config symlinks.
 - [ ] Set up an awesome git-changelog.
 
 ---
