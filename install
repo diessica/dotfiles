@@ -72,7 +72,7 @@ chsh -s $(which zsh)
 rm ~/.zshrc
 # And set the awesome ones!
 ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
-ln -s ~/dotfiles/zsh/custom ~/.oh-my-zsh/custom
+ln -s ~/dotfiles/zsh/custom ~/.oh-my-zsh
 
 echo "→ Configure iTerm..."
 rm ~/Library/Preferences/com.googlecode.iterm2.plist
