@@ -52,8 +52,8 @@ gem install $(cat ruby/gemfile|grep -v "#")
 # pip install $(cat python/pipfile)
 
 # Atom
-echo "→ Installing Atom packages..."
-apm install --packages-file $(cat atom/atomfile|grep -v "#")
+#echo "→ Installing Atom packages..."
+#apm install --packages-file $(cat atom/atomfile|grep -v "#")
 
 
 # --------------–-------–--------–--------–-------–--–-----
