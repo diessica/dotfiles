@@ -1,6 +1,11 @@
 # dotfiles.
 > *My [setup](https://github.com/diessica/setup) and [favourites](https://github.com/diessica/favourites) are also worth-checking! ;-)*
 
+<img width="1139" src="https://cloud.githubusercontent.com/assets/5303585/13027776/c23b9524-d243-11e5-929a-80c69f6a77d3.png">
+<p align="center"><i>Sublime Text 3, with Material Theme. See <a href="https://raw.githubusercontent.com/diessica/dotfiles/master/subl/Preferences.sublime-settings"> my Sublime preferences</a>.</i></p>
+
+----
+
 These are my very personal **system preferences**; **command-line tools**, **tweaks** and **utils**.
 
 Productivity is quite a subjective topic, so perhaps my flow won't work for you in the same way it works for me. Actually, I'm not even sure whether it is the most productive way to work, but, as a huge fan of productivity stuff, I try hard to be more comfortable on my computer every day.
