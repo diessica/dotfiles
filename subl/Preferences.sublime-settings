@@ -1,16 +1,4 @@
 {
-  // Theme
-  "theme": "Spacegray.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
-  "spacegray_tabs_large": true,
-  "spacegray_sidebar_font_normal": true,
-
-  // Text
-  "font_size": 14,
-  "font_face": "Fira Code",
-  "line_padding_bottom": 1.5,
-  "line_padding_top": 1.5,
-
   // Coding standards
   "tab_size": 2,
   "tabs_small": true,
@@ -20,6 +8,25 @@
   "default_line_ending": "unix",
   "ensure_newline_at_eof_on_save": true,
 
+  // Theme
+  "theme": "Material-Theme.sublime-theme",
+  // "theme": "Material-Theme-Darker.sublime-theme",
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  // "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+  // "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker-OceanicNext.tmTheme",
+  "material_theme_small_tab": true,
+  "material_theme_compact_sidebar": true,
+  "material_theme_tabs_separator": true, // This also disables tab hover animation
+  "material_theme_small_statusbar": true,
+  "material_theme_disable_folder_animation": true,
+
+  // Text
+  "font_size": 14,
+  "font_face": "Fira Code",
+  "font_options": ["gray_antialias", "subpixel_antialias"],
+  "line_padding_top": 2,
+  "line_padding_bottom": 2,
+
   // Other
   "bold_folder_labels": true,
   "fade_fold_buttons": false,
@@ -28,6 +35,9 @@
   "highlight_modified_tabs": true,
   "enable_live_count": true,
   "close_windows_when_empty": false,
+  "indent_guide_options": ["draw_normal", "draw_active"],
+  "overlay_scroll_bars": "enabled",
+  "always_show_minimap_viewport": true,
 
   // Exclude
   "file_exclude_patterns": [
