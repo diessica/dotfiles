@@ -1,10 +1,11 @@
 [hub]
   protocol = https
-  
+
 [alias]
   # --------------–-------–--------–--------–-------–--–-----
   # Faster commands
   # --------------–-------–--------–--------–-------–--–-----
+  g = git
   ad = add .
   br = branch
   cm = commit -m
@@ -36,30 +37,32 @@
 
 [core]
   excludesfile = ~/.gitignore_global
-  editor = atom
+  editor = subl
 
 [apply]
   whitespace = fix
-  
+
 [color]
   ui = auto
   interactive = auto
-  
+
 [color "branch"]
   current = yellow reverse
   local = yellow
   remote = green
-  
+
 [color "diff"]
   meta = yellow bold
   frag = magenta bold
   old = red bold
   new = green bold
-  
+
 [color "status"]
   added = yellow
   changed = green
   untracked = cyan
-  
+
 [merge]
   log = true
+[user]
+	email = diessicode@gmail.com
