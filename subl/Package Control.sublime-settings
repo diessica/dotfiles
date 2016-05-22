@@ -9,7 +9,6 @@
     "ColorPicker",
     "DevDocs",
     "DocBlockr",
-    "EJS",
     "Emmet",
     "Git",
     "JavaScript Patterns",
@@ -21,15 +20,13 @@
     "Modific",
     "Origami",
     "Package Control",
-    "ReactJS",
     "Sass",
     "SideBarEnhancements",
-    "Stylus",
     "SublimeCodeIntel",
     "SublimeLinter",
     "SublimeLinter-contrib-eslint",
     "SublimeLinter-contrib-standard",
-    "Theme - Spacegray",
+    "Theme - Cobalt2",
     "ToggleMinimapOnScroll"
   ]
 }
