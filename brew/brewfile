@@ -1,25 +1,11 @@
-go
 node
-
-# Command-line tweaks and utils
 coreutils
 curl --with-ssl --with-libssh2
 ffmpeg
 findutils
 imagemagick --with-webp
-speedtest_cli
-terminal-notifier
 tree
 wget --with-iri
 youtube-dl
-zsh
-zsh-completions
-
-# Development tools
-android-sdk
-flow
-git
-git-ftp
+fish
 hub
-vim
-virtualbox
