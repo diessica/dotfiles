@@ -31,11 +31,11 @@ $  npm adduser
 ```
 
 ## what's included?
-An entire environment, with software preferences (hot corners, Finder, Safari...), hardware settings (trackpad, screen...), npm global packages, gems, terminal tweaks... **Everything well-documented and specified** in [`settings.md`](https://github.com/diessica/dotfiles/blob/master/settings.md) file.
+Refer to [`settings.md`](https://github.com/diessica/dotfiles/blob/master/settings.md) file.
 
 # to-do
 - [x] Open source my zsh preferences and organize them by folder.
-- [ ] Implement modular installation, specially for dotfiles.
+- [ ] Implement modular installation.
 - [x] Config symlinks.
 - [ ] Set up an awesome git-changelog.
 
