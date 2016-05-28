@@ -7,10 +7,6 @@ sudo -v
 # --------------–-------–--------–--------–-------–--–-----
 # System packages
 # --------------–-------–--------–--------–-------–--–-----
-# Install Ruby Version Manager (rvm.io)
-curl -sSL https://get.rvm.io | bash -s stable
-source "$HOME"/.rvm/scripts/rvm | rvm install ruby-head
-
 # Install Homebrew for package management, if not installed
 if test ! $(which brew)
 then
@@ -29,12 +25,9 @@ echo "→ Installing packages using Homebrew..."
 # Install all packages listed in the brewfile
 brew install $(cat brew/brewfile|grep -v "#")
 
-# Install oh-my-zsh, a framework for Zsh
-echo "→ Installing oh-my-zsh, a framework for Zsh.."
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-# Install zsh-syntax-highlighting plugin
-git clone git://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins
+# Install Fisherman, a plugin manager for Fish
+echo "→ Installing Fisherman, a plugin manager for Fish.."
+curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
 
 
 # --------------–-------–--------–--------–-------–--–-----
@@ -54,14 +47,16 @@ ln -s ~/dotfiles/git/config ~/.gitconfig
 ln -s ~/dotfiles/git/attributes ~/.gitattributes
 ln -s ~/dotfiles/git/ignore_global ~/.gitignore_global
 
-echo "→ Linking Zsh dotfiles..."
+echo "→ Linking Fish dotfiles..."
 # Set Zsh as default shell
-chsh -s $(which zsh)
-# Remove that messy default zshrc file
-rm ~/.zshrc
-# And set the awesome ones!
-ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
-ln -s ~/dotfiles/zsh/custom ~/.oh-my-zsh
+sudo echo /usr/local/bin/fish >> /etc/shells
+chsh -s /usr/local/bin/fish
+# Set custom settings
+ln -s ~/dotfiles/fish/config.fish ~/.config/fish/config.fish
+ln -s ~/dotfiles/fish/utils ~/.config/fish/functions/custom
+ln -s ~/dotfiles/fish/fishfile ~/.config/fish/fishfile
+# Run fisher
+fisher
 
 echo "→ Configure iTerm..."
 rm ~/Library/Preferences/com.googlecode.iterm2.plist
