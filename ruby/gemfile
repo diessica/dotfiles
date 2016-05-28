@@ -1,6 +1,0 @@
-# Gems, which can include version numbers if needed
-bundler
-gem-path
-rails
-rake
-guard-livereload
