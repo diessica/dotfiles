@@ -1,11 +1,6 @@
 # dotfiles.
 > *My [setup](https://github.com/diessica/setup) and [favourites](https://github.com/diessica/favourites) are also worth-checking! ;-)*
 
-<img src="https://cloud.githubusercontent.com/assets/5303585/13027812/b56799f0-d244-11e5-9b07-de3b4e2c9a0b.png">
-<p align="center"><i>Sublime Text 3, with Material Theme. See <a href="https://raw.githubusercontent.com/diessica/dotfiles/master/subl/Preferences.sublime-settings"> my Sublime preferences</a>.</i></p>
-
-----
-
 These are my very personal **system preferences**; **command-line tools**, **tweaks** and **utils**.
 
 Productivity is quite a subjective topic, so perhaps my flow won't work for you in the same way it works for me. Actually, I'm not even sure whether it is the most productive way to work, but, as a huge fan of productivity stuff, I try hard to be more comfortable on my computer every day.
@@ -40,8 +35,6 @@ An entire environment, with software preferences (hot corners, Finder, Safari...
 
 # to-do
 - [x] Open source my zsh preferences and organize them by folder.
-- [ ] Open source my keybindings on zsh.
-- [ ] Organise [`misc`](misc) folder somehow. Still kinda nonsense.
 - [ ] Implement modular installation, specially for dotfiles.
 - [x] Config symlinks.
 - [ ] Set up an awesome git-changelog.
