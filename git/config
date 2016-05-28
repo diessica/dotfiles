@@ -13,6 +13,7 @@
   pl = pull
   ps = push
   psm = push origin master
+  psd = push origin dev
   st = status
 
   # --------------–-------–--------–--------–-------–--–-----
@@ -64,5 +65,3 @@
 
 [merge]
   log = true
-[user]
-	email = diessicode@gmail.com
