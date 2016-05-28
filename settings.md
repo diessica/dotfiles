@@ -5,7 +5,6 @@
 ##### Installed packages
 - [Homebrew](#homebrew)
 - [npm globals](#npm)
-- [Gems](#gems)
 - [Atom packages](#atom)
 - [Sublime packages](#sublime-text)
 
@@ -15,8 +14,6 @@
   - Config
   - Attributes
   - Global .gitignore
-- [JSHint](misc/.jslintrc)
-- [ESLint](misc/.eslintrc)
 
 ##### Defaults
 - Operational system
