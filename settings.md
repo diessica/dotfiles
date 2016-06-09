@@ -5,7 +5,6 @@
 ##### Installed packages
 - [Homebrew](#homebrew)
 - [npm globals](#npm)
-- [Atom packages](#atom)
 - [Sublime packages](#sublime-text)
 
 ##### Miscellaneous features
@@ -43,15 +42,6 @@ Command-line tweaks and utils, development tools...
 > See [`npmGlobals`](npm/npmGlobals).
 
 Volume and brightness control on OS X, TODOs management, development tools and helpers... Everything through command line.
-
-#### Gems
-> See [`gemfile`](ruby/gemfile).
-
-I play with [RUBYRUBYRUBYRUBY!](https://www.youtube.com/watch?v=qObzgUfCl28) sometimes.
-
-#### Atom
-> See [`atomfile`](atom/atomfile).
-
 
 #### Sublime Text
 > See [`subl` folder](subl).
