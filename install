@@ -62,6 +62,8 @@ echo "→ Configure iTerm..."
 rm ~/Library/Preferences/com.googlecode.iterm2.plist
 ln -s ~/dotfiles/iterm/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 
+echo "→ Configure Hyperterm..."
+ln -s ~/dotfiles/hyperterm/.hyperterm.js ~/.hyperterm.js
 
 # --------------–-------–--------–--------–-------–--–-----
 # System preferences
