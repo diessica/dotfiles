@@ -39,6 +39,7 @@
 [core]
   excludesfile = ~/.gitignore_global
   editor = subl
+  pager = diff-so-fancy | less --tabs=2 -RFX
 
 [apply]
   whitespace = fix
