@@ -1,11 +1,34 @@
-// Place your settings in this file to overwrite the default settings
 {
-  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Roboto Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "terminal.integrated.fontLigatures": true,
   "editor.tabSize": 2,
+  "editor.insertSpaces": true,
   "editor.rulers": [80],
   "files.exclude": {
-    "**/node_modules": true
-  }
+    "**/node_modules": true,
+    ".vscode": true
+  },
+  "editor.quickSuggestionsDelay": 5,
+  "editor.wordWrap": false,
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.css": "postcss"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "extension-manager.extensions": [
+    "EditorConfig.EditorConfig",
+    "QassimFarid.ejs-language-support",
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "joshpeng.sublime-babel-vscode",
+    "joshpeng.theme-charcoal-oceanicnext",
+    "joshpeng.theme-onedark-sublime",
+    "ricard.PostCSS",
+    "seanmcbreen.Spell",
+    "shardulm94.trailing-spaces"
+  ]
 }
