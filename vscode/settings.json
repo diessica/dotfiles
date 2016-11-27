@@ -5,6 +5,7 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.rulers": [80],
+  "editor.renderIndentGuides": true,
   "files.exclude": {
     "**/node_modules": true,
     ".vscode": true
