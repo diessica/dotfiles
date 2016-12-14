@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "Roboto Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "terminal.integrated.fontLigatures": true,
   "editor.tabSize": 2,
@@ -12,6 +12,8 @@
   },
   "editor.quickSuggestionsDelay": 5,
   "editor.wordWrap": false,
+  "workbench.activityBar.visible": false,
+  "workbench.editor.showTabCloseButton": false,
   "files.associations": {
     "*.js": "javascriptreact",
     "*.css": "postcss"
