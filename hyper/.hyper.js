@@ -1,8 +1,14 @@
 module.exports = {
   config: {
     fontSize: 12,
-    fontFamily: 'Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
+    fontFamily: '"Fira Code", Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
     padding: '12px 14px',
+    bell: false,
+    termCSS: `
+      x-screen x-row {
+        font-variant-ligatures: initial;
+      }
+    `,
   },
 
   plugins: [
