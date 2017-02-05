@@ -4,7 +4,7 @@ Plug 'gavocanov/vim-js-indent', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'joshdick/onedark.vim'
-Plug 'vim-syntastic/syntastic'
+" Plug 'vim-syntastic/syntastic'
 Plug 'itchyny/lightline.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'tpope/vim-surround'
@@ -15,7 +15,7 @@ call plug#end()
 
 let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 let g:onedark_termcolors=16
-" let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_checkers = ['eslint']
 let g:lightline = {
   \ 'colorscheme': 'onedark',
   \ }
@@ -34,3 +34,5 @@ set foldnestmax=10
 set nofoldenable
 set foldlevel=2
 set noshowmode
+let g:indentLine_color_term = 239
+
