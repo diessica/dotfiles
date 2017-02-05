@@ -48,7 +48,7 @@ ln -s ~/dotfiles/git/attributes ~/.gitattributes
 ln -s ~/dotfiles/git/ignore_global ~/.gitignore_global
 
 echo "→ Linking Fish dotfiles..."
-# Set Zsh as default shell
+# Set Fish as default shell
 sudo echo /usr/local/bin/fish >> /etc/shells
 chsh -s /usr/local/bin/fish
 # Set custom settings
@@ -57,10 +57,6 @@ ln -s ~/dotfiles/fish/utils ~/.config/fish/functions/custom
 ln -s ~/dotfiles/fish/fishfile ~/.config/fish/fishfile
 # Run fisher
 fisher
-
-echo "→ Configure iTerm..."
-rm ~/Library/Preferences/com.googlecode.iterm2.plist
-ln -s ~/dotfiles/iterm/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 
 echo "→ Configure Hyper..."
 ln -s ~/dotfiles/hyper/.hyper.js ~/.hyper.js
