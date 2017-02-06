@@ -19,6 +19,7 @@ module.exports = {
   plugins: [
     'hyperterm-atom-dark',
     'hyper-tabs-enhanced',
-    'hyper-blink'
+    'hyper-blink',
+    'hypercwd'
   ],
 };
