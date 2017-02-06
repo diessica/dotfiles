@@ -10,3 +10,4 @@ fish
 hub
 nvm
 pie
+macvim --with-override-system-vim
