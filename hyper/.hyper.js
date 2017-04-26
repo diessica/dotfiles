@@ -3,6 +3,7 @@ module.exports = {
     fontFamily: '"Fira Code", Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
     padding: '12px 14px',
     bell: false,
+    shell: '/usr/local/bin/fish',
     termCSS: `
       * {
         -webkit-font-feature-settings: "liga" on, "calt" on, "dlig" on !important;
