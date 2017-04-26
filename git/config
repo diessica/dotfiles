@@ -68,3 +68,6 @@
 
 [merge]
   log = true
+
+[include]
+  path = .gitlocal
