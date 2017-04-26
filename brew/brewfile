@@ -9,4 +9,3 @@ fish
 hub
 nvm
 httpie
-macvim --with-override-system-vim
