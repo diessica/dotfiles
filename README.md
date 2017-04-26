@@ -1,7 +1,7 @@
 # dotfiles.
 These are my personal tweaks on **macOS Sierra**.
 
-*(I miss them A LOT while using someone else's computer. :sob:)*
+*(I miss them A LOT while using someone else's computer.* :sob:*)*
 
 It's quite likely that my workflow won't work for you the way it works for me, since productivity is subjective. Personally, though, it does the job pretty well and keeps me focused on what matters.
 
