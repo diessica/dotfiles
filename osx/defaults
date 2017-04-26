@@ -121,8 +121,11 @@ defaults write NSGlobalDomain AppleMetricUnits -bool true
 
 
 # --------------–-------–--------–--------–-------–--–-----
-# Dock and Dashboard
+# Dock, Dashboard and Menu Bar
 # --------------–-------–--------–--------–-------–--–-----
+# Hide menu bar
+defaults write NSGlobalDomain _HIHideMenuBar -bool true
+
 # Put Dock on the right side of the screen
 defaults write com.apple.Dock orientation -string right
 
