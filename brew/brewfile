@@ -1,6 +1,5 @@
 coreutils
 curl --with-ssl --with-libssh2
-ffmpeg
 findutils
 imagemagick --with-webp
 tree
