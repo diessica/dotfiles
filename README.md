@@ -24,13 +24,13 @@ $ git clone https://github.com/diessica/dotfiles.git ~/dotfiles
 $ cd ~/dotfiles
 ```
 
-**3.** Install Mac applications (see [caskfile](caskfile)) and fonts (see [fontfile](fontfile)).
+**3.** Install Mac applications (see [caskfile](brew/caskfile)) and fonts (see [fontfile](brew/fontfile)).
 
 ```sh
 $ sh ./install-apps
 ```
 
-**4.** Install dotfiles (see [brewfile](brewfile)).
+**4.** Install dotfiles (see [brewfile](brew/brewfile)).
 
 ```sh
 $ sh ./install-dotfiles
