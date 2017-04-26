@@ -11,22 +11,10 @@
   "theme": "Theme-Cobalt2-Flat.sublime-theme",
   "sidebar_font_small": true,
   "sidebar_medium": true,
-  "bold_folder_labels": true,
   "caret_extra_bottom": 2,
   "caret_extra_top": 2,
   "caret_extra_width": 3,
   "caret_style": "phase",
-  "fade_fold_buttons": false,
-  "font_face": "Operator Mono",
-  "highlight_line": true,
-  "highlight_modified_tabs": true,
-  "indent_guide_options":
-  [
-    "draw_normal",
-    "draw_active"
-  ],
-  "line_padding_bottom": 2,
-  "line_padding_top": 1,
   "wide_caret": true,
   "highlight_line": true,
   "indent_guide_options": ["draw_normal", "draw_active"],
@@ -40,7 +28,7 @@
   "always_show_minimap_viewport": true,
 
   // Text
-  "font_size": 14,
+  "font_size": 12,
   "font_face": "Fira Code",
   "font_options": ["gray_antialias", "subpixel_antialias"],
   "line_padding_top": 1.50,
