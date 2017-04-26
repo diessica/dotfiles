@@ -55,6 +55,8 @@ chsh -s /usr/local/bin/fish
 ln -s ~/dotfiles/fish/config.fish ~/.config/fish/config.fish
 ln -s ~/dotfiles/fish/utils ~/.config/fish/functions/custom
 ln -s ~/dotfiles/fish/fishfile ~/.config/fish/fishfile
+# Switch to fish
+fish
 # Run fisher
 fisher
 
