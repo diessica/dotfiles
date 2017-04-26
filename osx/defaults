@@ -76,9 +76,12 @@ sudo pmset -a sms 0
 # Trackpad, mouse and keyboard
 # --------------–-------–--------–--------–-------–--–-----
 # Enable tap to click
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
-defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+
+# Enable two-tap to right click
+defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -bool true
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
 
 # Enable full keyboard access for all controls
 # (e.g. enable Tab in modal dialogs)
