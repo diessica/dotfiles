@@ -8,8 +8,11 @@
   "ensure_newline_at_eof_on_save": true,
 
   // Theme and Experience
-  "theme": "Cobalt2.sublime-theme",
-  "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+  "theme": "Spacegray.sublime-theme",
+  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+  "spacegray_tabs_large": true,
+  "sidebar_font_small": true,
+  "spacegray_fileicons": true,
   "sidebar_font_small": true,
   "sidebar_medium": true,
   "caret_extra_bottom": 2,
@@ -32,8 +35,8 @@
   "font_size": 12,
   "font_face": "Hack",
   "font_options": ["gray_antialias", "subpixel_antialias"],
-  "line_padding_top": 1.50,
-  "line_padding_bottom": 1.50,
+  "line_padding_top": 2,
+  "line_padding_bottom": 2,
 
   // Exclude
   "file_exclude_patterns": [
