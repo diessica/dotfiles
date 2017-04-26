@@ -8,7 +8,8 @@
   "ensure_newline_at_eof_on_save": true,
 
   // Theme and Experience
-  "theme": "Theme-Cobalt2-Flat.sublime-theme",
+  "theme": "Cobalt2.sublime-theme",
+  "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
   "sidebar_font_small": true,
   "sidebar_medium": true,
   "caret_extra_bottom": 2,
