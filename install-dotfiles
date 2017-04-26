@@ -73,5 +73,5 @@ ln -s ~/dotfiles/hyper/.hyper.js ~/.hyper.js
 # System preferences
 # --------------–-------–--------–--------–-------–--–-----
 # It'll shut down Terminal!
-echo "→ Set OS X defaults... (It'll shut down Terminal!)"
-sh osx/defaults
+echo "→ Set macOS defaults... (It'll shut down Terminal!)"
+sh macos/defaults

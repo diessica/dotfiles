@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #
-# My OS X defaults, inspired by mths.be/osx.
-# Refer to settings.md if you want to read it the human way.
+# My macOS defaults, inspired by mths.be/osx.
 #
 
 # Ask for the administrator password upfront
