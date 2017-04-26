@@ -9,8 +9,6 @@
 #
 # NOTE: Don't forget to update your global packages regularly.
 
-# Services
-wunderline
 
 # System tools
 brightness-cli
@@ -22,12 +20,9 @@ speed-test
 
 # Miscellaneous
 pick-random
-imgur-uploader-cli
 
 # Development tools
 cssstats
-gh
-jpm # devDependencies
 mozjpeg
 npmreserve
 diff-so-fancy
