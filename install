@@ -31,14 +31,6 @@ curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
 
 
 # --------------–-------–--------–--------–-------–--–-----
-# Specific packages
-# --------------–-------–--------–--------–-------–--–-----
-# Node.js
-echo "→ Installing npm packages..."
-npm install -g $(cat npm/npmGlobals|grep -v "#")
-
-
-# --------------–-------–--------–--------–-------–--–-----
 # Command line tweaks, linking stuff
 # --------------–-------–--------–--------–-------–--–-----
 echo "→ Linking Git dotfiles..."
@@ -60,7 +52,21 @@ fish
 # Run fisher
 fisher
 
-echo "→ Configure Hyper..."
+
+# --------------–-------–--------–--------–-------–--–-----
+# Specific packages
+# --------------–-------–--------–--------–-------–--–-----
+# Install nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+
+# Install node
+nvm install stable
+
+# Install npm packages
+echo "→ Installing npm packages..."
+npm install -g $(cat npm/npmGlobals|grep -v "#")
+
+echo "→ Configuring Hyper..."
 ln -s ~/dotfiles/hyper/.hyper.js ~/.hyper.js
 
 # --------------–-------–--------–--------–-------–--–-----
