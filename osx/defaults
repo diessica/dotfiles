@@ -76,9 +76,12 @@ sudo pmset -a sms 0
 # Trackpad, mouse and keyboard
 # --------------–-------–--------–--------–-------–--–-----
 # Enable tap to click
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
-defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+
+# Enable two-tap to right click
+defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -bool true
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
 
 # Enable full keyboard access for all controls
 # (e.g. enable Tab in modal dialogs)
@@ -121,10 +124,13 @@ defaults write NSGlobalDomain AppleMetricUnits -bool true
 
 
 # --------------–-------–--------–--------–-------–--–-----
-# Dock and Dashboard
+# Dock, Dashboard and Menu Bar
 # --------------–-------–--------–--------–-------–--–-----
-# Put Dock on the right side of the screen
-defaults write com.apple.Dock orientation -string right
+# Hide menu bar
+defaults write NSGlobalDomain _HIHideMenuBar -bool true
+
+# Put Dock on the left side of the screen
+defaults write com.apple.dock orientation left
 
 # Enable highlight hover effect for the grid view of a stack (Dock)
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
@@ -132,8 +138,8 @@ defaults write com.apple.dock mouse-over-hilite-stack -bool true
 # Add a spacer tile in Dock
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
 
-# Set the icon size of Dock items to 36 pixels
-defaults write com.apple.dock tilesize -int 36
+# Set the icon size of Dock items to 40 pixels
+defaults write com.apple.dock tilesize -int 40
 
 # Change minimize/maximize window effect
 defaults write com.apple.dock mineffect -string "scale"
