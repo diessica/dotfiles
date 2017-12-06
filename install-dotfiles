@@ -66,9 +66,6 @@ nvm install stable
 echo "→ Installing npm packages..."
 npm install -g $(cat npm/npmGlobals|grep -v "#")
 
-echo "→ Configuring Hyper..."
-ln -s ~/dotfiles/hyper/.hyper.js ~/.hyper.js
-
 # --------------–-------–--------–--------–-------–--–-----
 # System preferences
 # --------------–-------–--------–--------–-------–--–-----
