@@ -1,0 +1,32 @@
+[
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.openNextRecentlyUsedEditorInGroup",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+ctrl+tab",
+        "command": "workspace.action.openPreviousRecentlyUsedEditorInGroup",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+d",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+w",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    }
+]
