@@ -1,20 +1,33 @@
 {
+  "editor.renderIndentGuides": false,
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "terminal.integrated.fontLigatures": true,
-  "editor.tabSize": 2,
-  "editor.insertSpaces": true,
+  "editor.quickSuggestionsDelay": 5,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": false,
   "editor.rulers": [80],
   "editor.renderIndentGuides": true,
+  "editor.quickSuggestionsDelay": 5,
+  "editor.wordWrap": false,
+  "terminal.integrated.fontLigatures": true,
+  "[javascript]": {
+      "editor.formatOnSave": true
+  },
+  "python.linting.lintOnSave": true,
+  "prettier.eslintIntegration": true,
+  "workbench.activityBar.visible": false,
+  "workbench.editor.showTabCloseButton": false,
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": null,
+  "workbench.activityBar.visible": false,
+  "workbench.editor.showTabCloseButton": false,
+  "workbench.sideBar.location": "right",
+  "window.zoomLevel": -1,
+  "terminal.integrated.fontLigatures": true,
   "files.exclude": {
     "**/node_modules": true,
     ".vscode": true
   },
-  "editor.quickSuggestionsDelay": 5,
-  "editor.wordWrap": false,
-  "workbench.activityBar.visible": false,
-  "workbench.editor.showTabCloseButton": false,
-  "workbench.sideBar.location": "right",
   "files.associations": {
     "*.js": "javascriptreact",
     "*.css": "postcss"
@@ -24,15 +37,9 @@
   },
   "extension-manager.extensions": [
     "EditorConfig.EditorConfig",
-    "QassimFarid.ejs-language-support",
     "christian-kohler.path-intellisense",
     "dbaeumer.vscode-eslint",
     "donjayamanne.githistory",
-    "joshpeng.sublime-babel-vscode",
-    "joshpeng.theme-charcoal-oceanicnext",
-    "joshpeng.theme-onedark-sublime",
-    "ricard.PostCSS",
-    "seanmcbreen.Spell",
-    "shardulm94.trailing-spaces"
+    "seanmcbreen.Spell"
   ]
 }
