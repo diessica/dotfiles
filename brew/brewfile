@@ -7,8 +7,8 @@ wget --with-iri
 youtube-dl
 fish
 hub
-nvm
 httpie
 yarn
 ack
 mas
+trash

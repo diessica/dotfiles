@@ -1,5 +1,5 @@
 # dotfiles.
-These are my personal tweaks on **macOS Sierra**.
+These are my personal tweaks on **macOS**.
 
 *(I miss them A LOT while using someone else's computer.* :sob:*)*
 
@@ -8,7 +8,7 @@ It's quite likely that my workflow won't work for you the way it works for me, s
 ## before I start
 I'm using [Homebrew](https://brew.sh/) to install Mac applications, command-line tools and fonts.
 
-Secondly, this repository also includes system preferences, which you can carefully check in my [macOS defaults file](macos/defaults).
+Secondly, this repository also includes system preferences, which you can carefully check in my [macOS defaults file](misc/macos).
 
 Lastly, not every file in this repository is being directly used. Some files, such as editor settings, are here for backup purposes.
 
