@@ -1,12 +1,12 @@
 # Browsers
 google-chrome
-firefoxdeveloperedition
+firefox-developer-edition
 
 # Development and design tools
 imagealpha
 imageoptim
-sublime-text
 iterm2
+visual-studio-code
 
 # System tools and tweaks
 the-unarchiver
@@ -18,16 +18,9 @@ ticktick
 keepingyouawake
 itsycal
 polymail
-dropbox
 google-backup-and-sync
 
 # Media and communication
 jumpshare
-slack
 spotify
 telegram-desktop
-
-# QuickLook plugins
-qlcolorcode
-qlmarkdown
-webpquicklook
