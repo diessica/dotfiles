@@ -3,44 +3,29 @@
 # Ask for the administrator password upfront
 sudo -v
 
-
-# --------------–-------–--------–--------–-------–--–-----
-# System packages
-# --------------–-------–--------–--------–-------–--–-----
-# Install Homebrew for package management, if not installed
+# Install Homebrew
 if test ! $(which brew)
 then
   echo " → Installing Homebrew for package management..."
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
-
-# Make sure Homebrew is up to date
 brew update
 brew upgrade
 
-# Command-line tools and utils
-# --------------–-------–--------–--------–-------–--–-----
 echo "→ Installing packages using Homebrew..."
-
-# Install all packages listed in the brewfile
 brew install $(cat brew/brewfile|grep -v "#")
 
-# Install Fisherman, a plugin manager for Fish
-echo "→ Installing Fisherman, a plugin manager for Fish.."
+echo "→ Installing Fisherman, a plugin manager for Fish..."
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
 
-
-# --------------–-------–--------–--------–-------–--–-----
-# Command line tweaks, linking stuff
-# --------------–-------–--------–--------–-------–--–-----
-echo "→ Linking Git dotfiles..."
+echo "→ Configuring Git..."
 # Personal information in your .gitlocal, not .gitconfig!
 ln -s ~/dotfiles/git/config ~/.gitconfig
 ln -s ~/dotfiles/git/attributes ~/.gitattributes
 ln -s ~/dotfiles/git/ignore_global ~/.gitignore_global
 
-echo "→ Linking Fish dotfiles..."
 # Set Fish as default shell
+echo "→ Configuring Fish..."
 echo '/usr/local/bin/fish' | sudo tee -a /etc/shells > /dev/null
 chsh -s /usr/local/bin/fish
 # Set custom settings
@@ -52,23 +37,12 @@ fish
 # Run fisher
 fisher
 
-
-# --------------–-------–--------–--------–-------–--–-----
-# Specific packages
-# --------------–-------–--------–--------–-------–--–-----
-# Install nvm
+# Install nvm, node and global npm packages
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-
-# Install node
 nvm install stable
-
-# Install npm packages
 echo "→ Installing npm packages..."
-npm install -g $(cat npm/npmGlobals|grep -v "#")
+npm install -g $(cat misc/npm_globals|grep -v "#")
 
-# --------------–-------–--------–--------–-------–--–-----
-# System preferences
-# --------------–-------–--------–--------–-------–--–-----
-# It'll shut down Terminal!
+# Set macOS defaults
 echo "→ Set macOS defaults... (It'll shut down Terminal!)"
-sh macos/defaults
+sh misc/macos

@@ -71,3 +71,6 @@
 
 [include]
   path = .gitlocal
+[user]
+	name = Diéssica Gurskas
+	email = diessicode@gmail.com
