@@ -1,17 +1,26 @@
 {
   "editor.renderIndentGuides": false,
-  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.quickSuggestionsDelay": 5,
   "editor.minimap.enabled": false,
-  "editor.formatOnSave": false,
-  "editor.rulers": [80],
+  "editor.rulers": [
+    80
+  ],
   "editor.renderIndentGuides": true,
   "editor.quickSuggestionsDelay": 5,
-  "editor.wordWrap": false,
   "terminal.integrated.fontLigatures": true,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "[markdown]": {
+    "zenMode.centerLayout": true,
+    "editor.fontFamily": "iA Writer Duospace, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.wordWrap": true,
+    "editor.lineNumbers": "off",
+    "workbench.colorTheme": "Default Light+",
+    "editor.rulers": [],
+    "editor.fontSize": 14,
+  },
   "[javascript]": {
-      "editor.formatOnSave": true
+    "editor.formatOnSave": true
   },
   "python.linting.lintOnSave": true,
   "prettier.eslintIntegration": true,
@@ -22,7 +31,6 @@
   "workbench.activityBar.visible": false,
   "workbench.editor.showTabCloseButton": false,
   "workbench.sideBar.location": "right",
-  "window.zoomLevel": -1,
   "terminal.integrated.fontLigatures": true,
   "files.exclude": {
     "**/node_modules": true,
@@ -39,7 +47,9 @@
     "EditorConfig.EditorConfig",
     "christian-kohler.path-intellisense",
     "dbaeumer.vscode-eslint",
-    "donjayamanne.githistory",
-    "seanmcbreen.Spell"
+    "streetsidesoftware.code-spell-checker",
+    "esbenp.prettier-vscode",
+    "mushan.vscode-paste-image",
+    "yzhang.markdown-all-in-one"
   ]
 }
