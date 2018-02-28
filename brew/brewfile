@@ -8,7 +8,8 @@ youtube-dl
 fish
 hub
 httpie
-yarn
+yarn --without-node
 ack
 mas
 trash
+git-standup

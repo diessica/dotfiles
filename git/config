@@ -8,6 +8,8 @@
   g = git
   ad = add .
   br = branch
+  c = checkout
+  cb = checkout
   cm = commit -m
   cam = commit -a -m
   pl = pull
@@ -35,12 +37,14 @@
   whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
   # Commit name
   whatis = show -s --pretty='tformat:%h (%s, %ad)' --date=short
-  # Today log for daily standup meetings
-  standup = log --since '1 day ago' --no-merges --pretty=format:'%C(white) %B' --author=(git config --get user.email)
+  # Stashing include tracked files
+  stash = stash --include-untracked
+  # Cleanup merged branches
+  cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
 
 [core]
   excludesfile = ~/.gitignore_global
-  editor = code
+  editor = code-insiders
   pager = diff-so-fancy | less --tabs=2 -RFX
 
 [apply]
@@ -71,6 +75,3 @@
 
 [include]
   path = .gitlocal
-[user]
-	name = Diéssica Gurskas
-	email = diessicode@gmail.com
