@@ -41,6 +41,8 @@
   stash = stash --include-untracked
   # Cleanup merged branches
   cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
+  # Empty commit
+  empty-commit = commit --allow-empty -m
 
 [core]
   excludesfile = ~/.gitignore_global
