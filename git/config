@@ -9,7 +9,7 @@
   ad = add .
   br = branch
   c = checkout
-  cb = checkout
+  cb = checkout -b
   cm = commit -m
   cam = commit -a -m
   pl = pull
