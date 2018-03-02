@@ -8,6 +8,11 @@ function mkd
   mkdir -p "$argv"; cd "$argv"
 end
 
+function note
+  set filename $argv[2]; or set filename (date -u +"%Y-%m-%d-%H%M")
+  echo $argv[1] >> ~/Notes/"$filename.md"
+end
+
 # nvm with Fish shell's Bass (https://github.com/edc/bass#nvm)
 function nvm
   bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
