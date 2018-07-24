@@ -74,6 +74,13 @@
 
 [merge]
   log = true
+  ff = only
+  
+[rebase]
+  autosquash = true
+  
+[push]
+  default = current
 
 [include]
   path = .gitlocal
