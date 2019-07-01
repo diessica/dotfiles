@@ -1,14 +1,13 @@
 coreutils
-curl --with-ssl --with-libssh2
+curl
 findutils
-imagemagick --with-webp
+imagemagick
 tree
-wget --with-iri
+wget
 youtube-dl
 fish
 hub
 httpie
-yarn --without-node
 ack
 mas
 trash
