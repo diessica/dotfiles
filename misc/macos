@@ -15,13 +15,6 @@ defaults write ~/Library/Preferences/.GlobalPreferences AppleInterfaceStyle Dark
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
 
-# Hide some icons from menu bar: Time Machine and Volume
-for domain in ~/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
-  defaults write "${domain}" dontAutoLoad -array \
-    "/System/Library/CoreServices/Menu Extras/TimeMachine.menu" \
-    "/System/Library/CoreServices/Menu Extras/Volume.menu"
-done
-
 # Disable the “Are you sure you want to open this application?" dialog
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
@@ -56,13 +49,6 @@ sudo tmutil disablelocal
 
 # Disable hibernation (speeds up entering sleep mode)
 sudo pmset -a hibernatemode 0
-
-# Remove the sleep image file to save disk space
-sudo rm /private/var/vm/sleepimage
-# Create a zero-byte file instead…
-sudo touch /private/var/vm/sleepimage
-# …and make sure it can't be rewritten
-sudo chflags uchg /private/var/vm/sleepimage
 
 # Disable the sudden motion sensor as it's not useful for SSDs
 sudo pmset -a sms 0
