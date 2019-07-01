@@ -12,11 +12,14 @@ fi
 brew update
 brew upgrade
 
-echo "→ Installing packages using Homebrew..."
+echo "→ Installing packages..."
 brew install $(cat brew/brewfile|grep -v "#")
-
-echo "→ Installing Fisherman, a plugin manager for Fish..."
+curl -o- -L https://yarnpkg.com/install.sh | bash
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+nvm install stable
+echo "→ Installing npm packages..."
+npm install -g $(cat misc/npm_globals|grep -v "#")
 
 echo "→ Configuring Git..."
 # Personal information in your .gitlocal, not .gitconfig!
@@ -36,12 +39,6 @@ ln -s ~/dotfiles/fish/fishfile ~/.config/fish/fishfile
 fish
 # Run fisher
 fisher
-
-# Install nvm, node and global npm packages
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-nvm install stable
-echo "→ Installing npm packages..."
-npm install -g $(cat misc/npm_globals|grep -v "#")
 
 # Set macOS defaults
 echo "→ Set macOS defaults... (It'll shut down Terminal!)"
