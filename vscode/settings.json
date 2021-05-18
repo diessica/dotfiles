@@ -4,7 +4,6 @@
     "editor.lineHeight": 20,
     "editor.rulers": [80],
     "editor.detectIndentation": true, 
-    "editor.renderIndentGuides": true,
     "editor.quickSuggestionsDelay": 5,
     "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
     
