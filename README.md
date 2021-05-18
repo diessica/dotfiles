@@ -1,16 +1,10 @@
 # dotfiles.
-These are my personal tweaks on **macOS**.
+My personal tweaks on **macOS**. Tweak it as you like it, [dotfiles are meant to be forked](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked).
 
-*(I miss them A LOT while using someone else's computer.* :sob:*)*
-
-It's quite likely that my workflow won't work for you the way it works for me, since productivity is subjective. Personally, though, it does the job pretty well and keeps me focused on what matters.
-
-## before I start
-I'm using [Homebrew](https://brew.sh/) to install Mac applications, command-line tools and fonts.
-
-Secondly, this repository also includes system preferences, which you can carefully check in my [macOS defaults file](misc/macos).
-
-Lastly, not every file in this repository is being directly used. Some files, such as editor settings, are here for backup purposes.
+Repo includes:
+- homebrew to install Mac applications, command-line tools and fonts.
+- system preferences
+- editor settings, for backup purposes.
 
 ## let's go
 **1.** Check for software updates.
@@ -53,9 +47,7 @@ $ npm adduser
 ```
 
 # thanks
-We can learn a lot about productivity just exploring the way people work every day. Personally, I got highly inspired by [Holman](https://github.com/holman), [Mathias Bynens](https://github.com/mathiasbynens/dotfiles), [Deny Dias](https://github.com/denydias/dotfiles) and [this question](http://stackoverflow.com/questions/171563/whats-in-your-zshrc).
-
-I can't agree more with [Holman](https://github.com/holman)'s thoughts on dotfiles: [dotfiles are meant to be forked](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked).
+Inspired by [Holman](https://github.com/holman), [Mathias Bynens](https://github.com/mathiasbynens/dotfiles), [Deny Dias](https://github.com/denydias/dotfiles) and [this question](http://stackoverflow.com/questions/171563/whats-in-your-zshrc).
 
 ###### LICENSE
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
