@@ -1,6 +1,7 @@
 # Browsers
 google-chrome-canary
 firefox-developer-edition
+brave-browser
 
 # Development and design tools
 imagealpha
@@ -8,17 +9,15 @@ imageoptim
 iterm2
 visual-studio-code-insiders
 
-# System tools and tweaks
+# System tools
 the-unarchiver
 qbittorrent
-tunnelblick
 dozer
 
 # Productivity tools
 spectacle
 keepingyouawake
-itsycal
 
-# Media and communication
+# Media
 jumpshare
 spotify
