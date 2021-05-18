@@ -9,8 +9,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # --------------–-------–--------–--------–-------–--–-----
 # System interface and behaviour
 # --------------–-------–--------–--------–-------–--–-----
-# Use Dark theme
-defaults write ~/Library/Preferences/.GlobalPreferences AppleInterfaceStyle Dark
 
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
@@ -69,12 +67,6 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # Disable “natural" (Lion-style) scrolling
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
-# Disable auto-correct
-defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
-
-# Disable Chrome's back/forward navigation
-defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
-
 
 # --------------–-------–--------–--------–-------–--–-----
 # Screen
@@ -95,14 +87,6 @@ defaults write com.apple.screencapture type -string "png"
 
 
 # --------------–-------–--------–--------–-------–--–-----
-# Text format and input
-# --------------–-------–--------–--------–-------–--–-----
-# Set to metric units
-defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
-defaults write NSGlobalDomain AppleMetricUnits -bool true
-
-
-# --------------–-------–--------–--------–-------–--–-----
 # Dock, Dashboard and Menu Bar
 # --------------–-------–--------–--------–-------–--–-----
 # Hide menu bar
@@ -113,9 +97,6 @@ defaults write com.apple.dock orientation left
 
 # Enable highlight hover effect for the grid view of a stack (Dock)
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
-
-# Add a spacer tile in Dock
-defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
 
 # Set the icon size of Dock items to 40 pixels
 defaults write com.apple.dock tilesize -int 40
@@ -141,10 +122,6 @@ defaults write com.apple.dock launchanim -bool false
 # Speed up Mission Control animations
 defaults write com.apple.dock expose-animation-duration -float 0.1
 
-# Don't group windows by application in Mission Control
-# (i.e. use the old Exposé behavior instead)
-defaults write com.apple.dock expose-group-by-app -bool false
-
 # Disable Dashboard
 defaults write com.apple.dashboard mcx-disabled -bool true
 # Don't show Dashboard as a Space
@@ -167,18 +144,6 @@ defaults write com.apple.dock showhidden -bool true
 # Reset Launchpad, but keep the desktop wallpaper intact
 find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
 
-# Add iOS Simulator to Launchpad
-sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app" "/Applications/iOS Simulator.app"
-
-# --------------–-------–--------–--------–-------–--–-----
-#  Mac App Store
-# --------------–-------–--------–--------–-------–--–-----
-# Enable the WebKit Developer Tools in the Mac App Store
-defaults write com.apple.appstore WebKitDeveloperExtras -bool true
-
-# Enable Debug Menu in the Mac App Store
-defaults write com.apple.appstore ShowDebugMenu -bool true
-
 
 # --------------–-------–--------–--------–-------–--–-----
 # Finder
@@ -192,9 +157,6 @@ defaults write com.apple.finder DisableAllAnimations -bool true
 # Use list view in all Finder windows
 # Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
-
-# Disable the warning before emptying the Trash
-#defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
 # Empty Trash securely by default
 defaults write com.apple.finder EmptyTrashSecurely -bool true
@@ -308,43 +270,6 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 # Disable local Time Machine backups
 hash tmutil &> /dev/null && sudo tmutil disablelocal
-
-
-# --------------–-------–--------–--------–-------–--–-----
-# Safari and Webkit
-# --------------–-------–--------–--------–-------–--–-----
-# Privacy: don't send search queries to Apple
-defaults write com.apple.Safari UniversalSearchEnabled -bool false
-defaults write com.apple.Safari SuppressSearchSuggestions -bool true
-
-# Show the full URL in the address bar (note: this still hides the scheme)
-defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
-
-# Set Safari's home page to `about:blank` for faster loading
-defaults write com.apple.Safari HomePage -string "about:blank"
-
-# Prevent Safari from opening ‘safe' files automatically after downloading
-defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
-
-# Hide Safari's bookmarks bar by default
-defaults write com.apple.Safari ShowFavoritesBar -bool false
-
-# Hide Safari's sidebar in Top Sites
-defaults write com.apple.Safari ShowSidebarInTopSites -bool false
-
-# Disable Safari's thumbnail cache for History and Top Sites
-defaults write com.apple.Safari DebugSnapshotsUpdatePolicy -int 2
-
-# Enable Safari's debug menu
-defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
-
-# Enable the Develop menu and the Web Inspector in Safari
-defaults write com.apple.Safari IncludeDevelopMenu -bool true
-defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
-defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
-
-# Add a context menu item for showing the Web Inspector in web view
-defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 
 # --------------–-------–--------–--------–-------–--–-----
