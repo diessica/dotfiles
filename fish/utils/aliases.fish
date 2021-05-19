@@ -41,7 +41,6 @@ alias curltime 'curl -s -w "%{time_total} seconds\n" -o /dev/null'
 
 # Git and GitHub (hub.github.com)
 alias g "git"
-alias gh "hub"
 
 # Show/hide hidden files in Finder
 alias show "defaults write com.apple.Finder AppleShowAllFiles -bool true; killall Finder"
