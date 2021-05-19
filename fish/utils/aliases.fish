@@ -33,7 +33,6 @@ alias cl "clear"
 alias h "history"
 alias q "exit"
 alias code $EDITOR
-alias notes "code ~/Notes"
 alias dotfiles "code ~/dotfiles"
 
 # Check web page download time
