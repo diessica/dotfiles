@@ -17,6 +17,7 @@
   psm = push origin master
   psd = push origin dev
   st = status
+  ri = rebase -i
 
   # --------------–-------–--------–--------–-------–--–-----
   # More intuitive commands
