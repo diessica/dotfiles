@@ -40,16 +40,6 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 
 # --------------–-------–--------–--------–-------–--–-----
-# SSD-specific tweaks
-# --------------–-------–--------–--------–-------–--–-----
-# Disable hibernation (speeds up entering sleep mode)
-sudo pmset -a hibernatemode 0
-
-# Disable the sudden motion sensor as it's not useful for SSDs
-sudo pmset -a sms 0
-
-
-# --------------–-------–--------–--------–-------–--–-----
 # Trackpad, mouse and keyboard
 # --------------–-------–--------–--------–-------–--–-----
 # Enable tap to click
@@ -99,7 +89,7 @@ defaults write com.apple.dock orientation left
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
 
 # Set the icon size of Dock items to 40 pixels
-defaults write com.apple.dock tilesize -int 40
+defaults write com.apple.dock tilesize -int 60
 
 # Change minimize/maximize window effect
 defaults write com.apple.dock mineffect -string "scale"
@@ -260,16 +250,6 @@ defaults write com.apple.ActivityMonitor ShowCategory -int 0
 # Sort Activity Monitor results by CPU usage
 defaults write com.apple.ActivityMonitor SortColumn -string "CPUUsage"
 defaults write com.apple.ActivityMonitor SortDirection -int 0
-
-
-# --------------–-------–--------–--------–-------–--–-----
-# Time Machine
-# --------------–-------–--------–--------–-------–--–-----
-# Prevent Time Machine from prompting to use new hard drives as backup volume
-defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
-
-# Disable local Time Machine backups
-hash tmutil &> /dev/null && sudo tmutil disablelocal
 
 
 # --------------–-------–--------–--------–-------–--–-----
