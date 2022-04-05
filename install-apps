@@ -14,5 +14,5 @@ brew tap homebrew/cask-versions # allows apps' alternative versions, like Canary
 brew install --cask $(cat brew/caskfile|grep -v "#")
 
 echo "→ Installing fonts..."
-homebrew/cask-fonts
+brew tap homebrew/cask-fonts
 brew install --cask $(cat brew/fontfile|grep -v "#")

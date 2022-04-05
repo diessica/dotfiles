@@ -4,8 +4,8 @@ firefox-developer-edition
 brave-browser
 
 # Development and design tools
-imagealpha
-imageoptim
+#imagealpha
+#imageoptim
 kitty
 visual-studio-code
 docker
@@ -20,5 +20,4 @@ spectacle
 keepingyouawake
 
 # Media
-jumpshare
 spotify

@@ -22,16 +22,23 @@ ln -s ~/dotfiles/git/ignore_global ~/.gitignore_global
 
 # Set Fish as default shell
 echo "→ Configuring Fish..."
-echo '/usr/local/bin/fish' | sudo tee -a /etc/shells > /dev/null
-chsh -s /usr/local/bin/fish
+echo '/opt/homebrew/bin/fish' | sudo tee -a /etc/shells > /dev/null
+chsh -s /opt/homebrew/bin/fish
 # Set custom settings
 ln -s ~/dotfiles/fish/config.fish ~/.config/fish/config.fish
 ln -s ~/dotfiles/fish/utils ~/.config/fish/functions/custom
 ln -s ~/dotfiles/fish/fishfile ~/.config/fish/fishfile
+
+# Installing theme
+curl -sS https://starship.rs/install.sh | sh
+
 # Switch to fish
 fish
 # Run fisher
-fisher
+fisher install $(cat fish/fishfile)
+
+echo "→ Configuring Kitty..."
+ln -s ~/dotfiles/misc/kitty.conf ~/.config/kitty/kitty.conf
 
 # Set macOS defaults
 echo "→ Set macOS defaults... (It'll shut down Terminal!)"
