@@ -40,6 +40,9 @@ fisher install $(cat fish/fishfile)
 echo "→ Configuring Kitty..."
 ln -s ~/dotfiles/misc/kitty.conf ~/.config/kitty/kitty.conf
 
+echo "→ Configuring ssh..."
+ln -s ~/dotfiles/git/ssh-config ~/.ssh/config
+
 # Set macOS defaults
 echo "→ Set macOS defaults... (It'll shut down Terminal!)"
 sh misc/macos

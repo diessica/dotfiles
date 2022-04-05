@@ -2,9 +2,10 @@
 My personal tweaks on **macOS**. Tweak it as you like it, [dotfiles are meant to be forked](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked).
 
 Repo includes:
-- homebrew to install Mac applications, command-line tools and fonts.
+- homebrew to install Mac applications, command-line tools and fonts
+- terminal & shell settings
 - system preferences
-- editor settings, for backup purposes.
+
 
 ## let's go
 **1.** Check for software updates.
@@ -44,6 +45,12 @@ $ npm set init.author.name "{Your name}"
 $ npm set init.author.email "{Your email}"
 $ npm set init.author.url "{Your URL}"
 $ npm adduser
+```
+
+**7.** Generate SSH keys and [add them to GitHub](https://github.com/settings/keys).
+```sh
+ssh-keygen -t work -C "{Work email}"
+ssh-keygen -t personal -C "{Personal email}"
 ```
 
 # thanks
