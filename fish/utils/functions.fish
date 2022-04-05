@@ -13,7 +13,3 @@ function note
   echo $argv[1] >> ~/Notes/"$filename.md"
 end
 
-# nvm with Fish shell's Bass (https://github.com/edc/bass#nvm)
-function nvm
-  bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
-end

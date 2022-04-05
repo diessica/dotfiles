@@ -3,23 +3,16 @@
 # Ask for the administrator password upfront
 sudo -v
 
-# Install Homebrew
 if test ! $(which brew)
 then
   echo " → Installing Homebrew for package management..."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 brew update
 brew upgrade
 
 echo "→ Installing packages..."
 brew install $(cat brew/brewfile|grep -v "#")
-curl -o- -L https://yarnpkg.com/install.sh | bash
-curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-nvm install stable
-echo "→ Installing npm packages..."
-npm install -g $(cat misc/npm_globals|grep -v "#")
 
 echo "→ Configuring Git..."
 # Personal information in your .gitlocal, not .gitconfig!
