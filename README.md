@@ -30,8 +30,8 @@ $ git config -f ~/.gitlocal user.email "{Your email}"
 
 **4.** Generate SSH keys and [add them to GitHub](https://github.com/settings/keys).
 ```sh
-ssh-keygen -t work -C "{Work email}"
-ssh-keygen -t personal -C "{Personal email}"
+ssh-keygen -t ed25519 -C "{Work email}" -f ~/.ssh/id_ed25519
+ssh-keygen -t ed25519 -C "{Personal email}" -f ~/.ssh/id_personal
 ```
 
 **5.** Tell [npm](https://www.npmjs.com/) who you are.
