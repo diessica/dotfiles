@@ -44,6 +44,8 @@
   cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
   # Empty commit
   empty-commit = commit --allow-empty -m
+  # Current Git email
+  whoami = "config user.email"
 
 [core]
   excludesfile = ~/.gitignore_global
