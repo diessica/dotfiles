@@ -1,13 +1,2 @@
-# General fonts
-font-lato
-font-open-sans
-font-pt-sans
-font-roboto
-font-source-sans-pro
-
 # Programming fonts
-font-source-code-pro
-font-fira-code
-font-inconsolata
-font-hack
-font-office-code-pro
+font-fira-code-nerd-font

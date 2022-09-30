@@ -4,15 +4,12 @@ firefox-developer-edition
 brave-browser
 
 # Development and design tools
-#imagealpha
-#imageoptim
 kitty
 visual-studio-code
 docker
 
 # System tools
 the-unarchiver
-qbittorrent
 dozer
 
 # Productivity tools

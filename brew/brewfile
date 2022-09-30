@@ -1,8 +1,5 @@
-coreutils
-imagemagick
 tree
 fish
 fisher
 httpie
-ack
 gh
