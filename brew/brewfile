@@ -3,3 +3,5 @@ fish
 fisher
 httpie
 gh
+helm
+kubectl
