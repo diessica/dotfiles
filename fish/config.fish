@@ -1,8 +1,9 @@
 # No greeting, please
-set -e fish_greeting
+set -U fish_greeting ""
+
 
 # Universal
-set -x EDITOR code
+set -x EDITOR codium
 
 fish_add_path /opt/homebrew/bin
 
@@ -10,3 +11,5 @@ fish_add_path /opt/homebrew/bin
 . "$HOME/.config/fish/functions/custom/functions.fish"
 
 starship init fish | source
+
+fnm env --use-on-cd --shell fish | source

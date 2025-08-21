@@ -67,8 +67,8 @@ defaults write com.apple.screencapture location ~/Pictures/Screenshots
 defaults write com.apple.screencapture type -string "png"
 
 # Simplify Touchbar
-defaults write com.apple.touchbar.agent PresentationModeGlobal fullControlStrip
-defaults write com.apple.controlstrip MiniCustomized "(com.apple.system.brightness, com.apple.system.volume, com.apple.system.mute, com.apple.system.media-play-pause)"
+# defaults write com.apple.touchbar.agent PresentationModeGlobal fullControlStrip
+# defaults write com.apple.controlstrip MiniCustomized "(com.apple.system.brightness, com.apple.system.volume, com.apple.system.mute, com.apple.system.media-play-pause)"
 
 # --------------–-------–--------–--------–-------–--–-----
 # Dock, Dashboard and Menu Bar
@@ -207,8 +207,8 @@ defaults write com.apple.finder FXPreferredGroupBy -string "None"
 # --------------–-------–--------–--------–-------–--–-----
 # Kill affected applications
 # --------------–-------–--------–--------–-------–--–-----
-for app in "Activity Monitor" "Dock" "Finder" "Google Chrome" \
-           "Google Chrome Canary" "Transmission" "SystemUIServer" "ControlStrip"; do
+for app in "Activity Monitor" "Dock" "Finder" \
+           "SystemUIServer" "ControlStrip"; do
   killall "${app}" > /dev/null 2>&1
 done
 echo "✓ macos OK. Some of these changes require a logout/restart to take effect."

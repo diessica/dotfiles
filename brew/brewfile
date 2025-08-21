@@ -1,7 +1,27 @@
 tree
 fish
 fisher
-httpie
 gh
 helm
 kubectl
+fnm
+starship
+d2
+kitty
+codium
+docker
+rectangle
+keepingyouawake
+google-cloud-sdk
+
+# Browsers
+google-chrome-canary
+firefox-developer-edition
+brave-browser
+
+# Media
+spotify
+
+# Fonts
+font-fira-code-nerd-font
+font-jetbrains-mono-nerd-font
