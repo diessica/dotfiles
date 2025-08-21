@@ -26,7 +26,7 @@ echo "✓ dotfiles download OK."
 
 
 # --------------–-------–--------–--------–-------–--–-----
-# GUI apps
+# CLI/GUI apps and fonts
 # --------------–-------–--------–--------–-------–--–-----
 echo "→ Installing packages from brew..."
 brew install $(cat brew/brewfile|grep -v "#")
